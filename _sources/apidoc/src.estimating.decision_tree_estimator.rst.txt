@@ -1,0 +1,7 @@
+src.estimating.decision\_tree\_estimator module
+===============================================
+
+.. automodule:: src.estimating.decision_tree_estimator
+   :members:
+   :undoc-members:
+   :show-inheritance:

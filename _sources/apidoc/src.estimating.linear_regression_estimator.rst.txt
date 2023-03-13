@@ -1,0 +1,7 @@
+src.estimating.linear\_regression\_estimator module
+===================================================
+
+.. automodule:: src.estimating.linear_regression_estimator
+   :members:
+   :undoc-members:
+   :show-inheritance:

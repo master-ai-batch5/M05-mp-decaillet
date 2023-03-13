@@ -1,0 +1,19 @@
+src.preparator package
+======================
+
+.. automodule:: src.preparator
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   src.preparator.base_preparator
+   src.preparator.boston_preparator
+   src.preparator.contract
+   src.preparator.factory
+   src.preparator.wine_preparator

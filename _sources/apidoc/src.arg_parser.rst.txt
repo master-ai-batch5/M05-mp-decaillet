@@ -1,0 +1,7 @@
+src.arg\_parser module
+======================
+
+.. automodule:: src.arg_parser
+   :members:
+   :undoc-members:
+   :show-inheritance:

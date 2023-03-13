@@ -1,0 +1,7 @@
+src.estimating.factory module
+=============================
+
+.. automodule:: src.estimating.factory
+   :members:
+   :undoc-members:
+   :show-inheritance:

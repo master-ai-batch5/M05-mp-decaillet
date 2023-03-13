@@ -1,0 +1,7 @@
+src.preprocessing.standard\_preprocessor module
+===============================================
+
+.. automodule:: src.preprocessing.standard_preprocessor
+   :members:
+   :undoc-members:
+   :show-inheritance:

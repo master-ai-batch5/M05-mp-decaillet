@@ -1,0 +1,7 @@
+src.preparator.boston\_preparator module
+========================================
+
+.. automodule:: src.preparator.boston_preparator
+   :members:
+   :undoc-members:
+   :show-inheritance:

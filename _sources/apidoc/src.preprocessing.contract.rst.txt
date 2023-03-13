@@ -1,0 +1,7 @@
+src.preprocessing.contract module
+=================================
+
+.. automodule:: src.preprocessing.contract
+   :members:
+   :undoc-members:
+   :show-inheritance:

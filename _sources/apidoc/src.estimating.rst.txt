@@ -1,0 +1,19 @@
+src.estimating package
+======================
+
+.. automodule:: src.estimating
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   src.estimating.contract
+   src.estimating.decision_tree_estimator
+   src.estimating.factory
+   src.estimating.linear_regression_estimator
+   src.estimating.sklearn_estimator_base

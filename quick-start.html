@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quick Start &mdash; M05-mp-decaillet  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Architecture" href="architecture.html" />
+    <link rel="prev" title="Welcome to M05-mp-decaillet’s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            M05-mp-decaillet
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Quick Start</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#setup-virtual-environment">Setup virtual environment</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#osx-and-linux">OSX and Linux</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#windows">Windows</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unit-tests.html">Unit tests and coverage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="documentation.html">Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api.html">API documentation (auto-generated)</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">M05-mp-decaillet</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Quick Start</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/quick-start.md.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="quick-start">
+<h1>Quick Start<a class="headerlink" href="#quick-start" title="Permalink to this heading"></a></h1>
+<!-- -------------------------------------------------- -->
+<p>From command line:</p>
+<ol class="arabic simple">
+<li><p>start your <a class="reference internal" href="#setup-virtual-environment"><span class="xref myst">virtual environment</span></a>: <code class="docutils literal notranslate"><span class="pre">workon</span> <span class="pre">m05-mp-decaillet</span></code></p></li>
+<li><p>run <a class="reference download internal" download="" href="_downloads/51a57dce673278d31eef1bd2264dc1e0/main.py"><span class="xref download myst">main.py</span></a>: <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">main.py</span></code></p>
+<ul class="simple">
+<li><p>for additional options, run <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">main.py</span> <span class="pre">--help</span></code></p></li>
+</ul>
+</li>
+</ol>
+<!-- -------------------------------------------------- -->
+<section id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this heading"></a></h2>
+<section id="setup-virtual-environment">
+<h3>Setup virtual environment<a class="headerlink" href="#setup-virtual-environment" title="Permalink to this heading"></a></h3>
+<p>This quick-start.md assumes a functional Python development environment with:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.python.org/3/library/venv.html">virtual environments</a></p></li>
+<li><p>a virtualenv wrapper:</p>
+<ul>
+<li><p><strong>OSX and Linux</strong>: use package <a class="reference external" href="https://virtualenvwrapper.readthedocs.io/en/latest/install.html">virtualenvwrapper</a></p></li>
+<li><p><strong>Windows</strong>: use package <a class="reference external" href="https://pypi.org/project/virtualenvwrapper-win/">virtualenvwrapper-win</a></p></li>
+</ul>
+</li>
+</ul>
+<p>The project requires <strong>Python 3.11.1</strong>.</p>
+<p>Create the virtualenv as follows:</p>
+<section id="osx-and-linux">
+<h4>OSX and Linux<a class="headerlink" href="#osx-and-linux" title="Permalink to this heading"></a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rmvirtualenv<span class="w"> </span>m05-mp-decaillet
+mkvirtualenv<span class="w"> </span>m05-mp-decaillet<span class="w"> </span>--python<span class="o">=</span>/usr/local/bin/python3.11<span class="w"> </span>-r<span class="w"> </span>requirements.txt
+</pre></div>
+</div>
+<p><em>NB: exact path to <strong>python3.11</strong> may vary; locate it with: <code class="docutils literal notranslate"><span class="pre">which</span> <span class="pre">python3.11</span></code></em></p>
+</section>
+<section id="windows">
+<h4>Windows<a class="headerlink" href="#windows" title="Permalink to this heading"></a></h4>
+<div class="highlight-winbatch notranslate"><div class="highlight"><pre><span></span>rmvirtualenv m05-mp-decaillet
+mkvirtualenv m05-mp-decaillet --python <span class="s2">&quot;</span><span class="nv">%userprofile%</span><span class="s2">\AppData\Local\Programs\Python\Python311\python.exe&quot;</span> -r requirements.txt 
+</pre></div>
+</div>
+<p><em>NB: exact path to <strong>python3.11</strong> may vary; locate it with: <code class="docutils literal notranslate"><span class="pre">where</span> <span class="pre">python</span></code> (Windows CMD) or <code class="docutils literal notranslate"><span class="pre">get-command</span> <span class="pre">python</span></code> (Windows PowerShell)</em></p>
+</section>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to M05-mp-decaillet’s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="architecture.html" class="btn btn-neutral float-right" title="Architecture" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, Benjamin Décaillet, Valentin Décaillet.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

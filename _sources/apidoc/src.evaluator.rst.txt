@@ -1,0 +1,7 @@
+src.evaluator module
+====================
+
+.. automodule:: src.evaluator
+   :members:
+   :undoc-members:
+   :show-inheritance:

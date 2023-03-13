@@ -1,0 +1,7 @@
+src.service module
+==================
+
+.. automodule:: src.service
+   :members:
+   :undoc-members:
+   :show-inheritance:

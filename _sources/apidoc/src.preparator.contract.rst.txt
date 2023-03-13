@@ -1,0 +1,7 @@
+src.preparator.contract module
+==============================
+
+.. automodule:: src.preparator.contract
+   :members:
+   :undoc-members:
+   :show-inheritance:

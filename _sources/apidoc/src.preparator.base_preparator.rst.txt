@@ -1,0 +1,7 @@
+src.preparator.base\_preparator module
+======================================
+
+.. automodule:: src.preparator.base_preparator
+   :members:
+   :undoc-members:
+   :show-inheritance:

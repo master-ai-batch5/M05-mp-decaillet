@@ -1,0 +1,7 @@
+src.preparator.wine\_preparator module
+======================================
+
+.. automodule:: src.preparator.wine_preparator
+   :members:
+   :undoc-members:
+   :show-inheritance:

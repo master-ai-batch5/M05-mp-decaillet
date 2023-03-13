@@ -1,0 +1,20 @@
+src.preprocessing package
+=========================
+
+.. automodule:: src.preprocessing
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   src.preprocessing.contract
+   src.preprocessing.factory
+   src.preprocessing.min_max_preprocessor
+   src.preprocessing.polynomial_preprocessor
+   src.preprocessing.sklearn_preprocessor_base
+   src.preprocessing.standard_preprocessor

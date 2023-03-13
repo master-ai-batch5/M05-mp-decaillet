@@ -1,0 +1,7 @@
+src.preprocessing.sklearn\_preprocessor\_base module
+====================================================
+
+.. automodule:: src.preprocessing.sklearn_preprocessor_base
+   :members:
+   :undoc-members:
+   :show-inheritance:

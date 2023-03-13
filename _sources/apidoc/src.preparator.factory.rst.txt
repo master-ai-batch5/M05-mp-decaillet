@@ -1,0 +1,7 @@
+src.preparator.factory module
+=============================
+
+.. automodule:: src.preparator.factory
+   :members:
+   :undoc-members:
+   :show-inheritance:

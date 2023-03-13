@@ -1,0 +1,7 @@
+src.estimating.sklearn\_estimator\_base module
+==============================================
+
+.. automodule:: src.estimating.sklearn_estimator_base
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,7 @@
+src.preprocessing.polynomial\_preprocessor module
+=================================================
+
+.. automodule:: src.preprocessing.polynomial_preprocessor
+   :members:
+   :undoc-members:
+   :show-inheritance:

@@ -1,0 +1,27 @@
+src package
+===========
+
+.. automodule:: src
+   :members:
+   :undoc-members:
+   :show-inheritance:
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   src.estimating
+   src.preparator
+   src.preprocessing
+
+Submodules
+----------
+
+.. toctree::
+   :maxdepth: 4
+
+   src.arg_parser
+   src.evaluator
+   src.service

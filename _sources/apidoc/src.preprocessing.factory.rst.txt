@@ -1,0 +1,7 @@
+src.preprocessing.factory module
+================================
+
+.. automodule:: src.preprocessing.factory
+   :members:
+   :undoc-members:
+   :show-inheritance:
