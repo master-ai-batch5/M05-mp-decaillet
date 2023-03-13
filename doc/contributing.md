@@ -7,7 +7,7 @@ As a general rule, follow [this syntax](https://gist.github.com/brianclements/84
 ## Branching strategy
 As a general rule:
 - avoid pushing directly to branch `dev`
-- push your changes to a feature branch (named `feature/name-in-kebab-case`) and create a [pull request](https://github.com/pulls) when you're done.
+- push your changes to a feature branch (named `feature/name-in-kebab-case`) and create a [pull request](https://github.com/master-ai-batch5/M05-mp-decaillet/pulls) when you're done.
 
 
 **Branch `main` is for releases only**; never push directly to main, always merge from `dev`.  
@@ -17,7 +17,7 @@ In principle a (merge) commit to `main` _is_ a release.
 ## Linter
 The python code in this project must match [autopep8](https://pypi.org/project/autopep8/) and [isort](https://pypi.org/project/isort/) linting/formatting rules.
 
-[GitHub actions](../.github/workflows/main.yml) will enforce these rules.
+[GitHub actions](https://github.com/master-ai-batch5/M05-mp-decaillet/actions/workflows/main.yml) will enforce these rules.
 
 ### Reformat from command line
 * activate your virtualenv: `workon m05-mp-decaillet`
@@ -26,7 +26,7 @@ The python code in this project must match [autopep8](https://pypi.org/project/a
 
 ### VS-code settings
 In VS-code, the linting  can be automated as follows:
-- Install extension [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (which is a [recommended extensions](../.vscode/extensions.json))
+- Install extension [python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) (which is a recommended extensions - see [../.vscode/extensions.json](../.vscode/extensions.json))
 - Edit your **User** Settings:
   - CMD + shift + P > "Preferences: Open User Settings (JSON)"
 - Append the following to you User Settings:
