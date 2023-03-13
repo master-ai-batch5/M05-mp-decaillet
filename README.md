@@ -13,19 +13,19 @@ Mini-project, as part of [module M05](https://moodle.fernuni.ch/course/view.php?
 
 <!-- -------------------------------------------------- -->
 
-## Architecture
-See [doc/architecture.rst](doc/architecture.rst)
-
 ## Quick Start
 See [doc/quick-start.md](doc/quick-start.md)
+
+## Architecture
+See [doc/architecture.rst](doc/architecture.rst)
 
 ## Unit-tests and coverage
 See [doc/unit-tests.md](doc/unit-tests.md)
 
-## Contributing
-See [doc/contributing.md](doc/contributing.md)
-
 ## Documentation
 See [doc/documentation.md](doc/documentation.md)
+
+## Contributing
+See [doc/contributing.md](doc/contributing.md)
 
 <!-- -------------------------------------------------- -->
