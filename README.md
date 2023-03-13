@@ -19,8 +19,11 @@ See [doc/architecture.rst](doc/architecture.rst)
 ## Quick Start
 See [doc/quick-start.md](doc/quick-start.md)
 
-## Unit-tests, Coverage, Contributing
-See [doc/ut-coverage-contributing.md](doc/ut-coverage-contributing.md)
+## Unit-tests and coverage
+See [doc/unit-tests.md](doc/unit-tests.md)
+
+## Contributing
+See [doc/contributing.md](doc/contributing.md)
 
 ## Documentation
 See [doc/documentation.md](doc/documentation.md)

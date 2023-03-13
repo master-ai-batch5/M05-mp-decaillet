@@ -18,4 +18,4 @@ This projects uses [sphinx](https://www.sphinx-doc.org/en/master/) do generate i
 ### Deployment to github pages
 
 On branch `main`, [GitHub actions](.github/workflows/main.yml) will auto-deploy doc to [Github pages](https://master-ai-batch5.github.io/M05-mp-decaillet/) (docs on other branches is not deployed - merge
-On branch `main`, [GitHub actions](.github/workflows/main.yml) will auto-deploy doc to [Github pages](https://master-ai-batch5.github.io/M05-mp-decaillet/) (docs from other branches are not deployed until merged to `main` - see [contributing](ut-coverage-contributing.md))
+On branch `main`, [GitHub actions](.github/workflows/main.yml) will auto-deploy doc to [Github pages](https://master-ai-batch5.github.io/M05-mp-decaillet/) (docs from other branches are not deployed until merged to `main` - see [contributing](contributing.md))
