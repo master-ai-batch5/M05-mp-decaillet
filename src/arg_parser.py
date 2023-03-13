@@ -6,6 +6,12 @@ from src.preprocessing import PreprocessorFactory
 
 
 class ArgParser:
+    """
+    Parse command line arguments.
+
+    :param argv: Command line arguments. If None, the command line arguments are read from sys.argv.
+    """
+
     def __init__(self, argv=None):
         parser = argparse.ArgumentParser(
             description="M05-mp-decaillet (https://github.com/master-ai-batch5/M05-mp-decaillet)")
