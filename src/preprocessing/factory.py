@@ -4,7 +4,7 @@ from src.preprocessing import Preprocessor
 
 class PreprocessorFactory:
     def __init__(self, type: str, polynomial_kwargs: dict = None):
-        if type not in {"min-max", "standard", "polynomial"}:
+        if type not in self.allowed_types:
             raise ValueError(f"Unknown preprocessor type '{type}'")
         if type != "polynomial" and polynomial_kwargs is not None:
             raise ValueError("polynomial_kwargs should be None for non-polynomial preprocessors")
@@ -22,3 +22,8 @@ class PreprocessorFactory:
             return src.preprocessing.StandardPreprocessor()
         if self._type == "polynomial":
             return src.preprocessing.PolynomialPreprocessor(**self._polynomial_kwargs)
+
+    @classmethod
+    @property
+    def allowed_types(cls) -> list[str]:
+        return ["min-max", "standard", "polynomial"]
