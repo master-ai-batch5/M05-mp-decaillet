@@ -15,6 +15,18 @@ The results of the analysis are shown below.
 Wine Quality
 ------------
 
+
+.. run with sphinx-build -b doctest doc sphinx
+.. testcode::
+
+   print("Hello world")
+
+.. testoutput::
+
+   Hello world
+
+
+
 TODO
 
 

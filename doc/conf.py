@@ -21,6 +21,7 @@ sys.path.append(os.path.abspath(".."))
 
 extensions = [
     'sphinx.ext.autodoc',
+    "sphinx.ext.doctest",
     'sphinx_rtd_theme',
     "myst_parser"
 ]
