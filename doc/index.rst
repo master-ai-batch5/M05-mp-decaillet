@@ -18,6 +18,7 @@ of `UniDistance's Master in AI <https://unidistance.ch/en/mathematics-and-comput
    apidoc/src
    quick-start
    ut-coverage-contributing
+   documentation
 
 
 

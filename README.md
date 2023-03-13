@@ -22,30 +22,7 @@ See [doc/quick-start.md](doc/quick-start.md)
 ## Unit-tests, Coverage, Contributing
 See [doc/ut-coverage-contributing.md](doc/ut-coverage-contributing.md)
 
-## Doc
-
-This projects uses [sphinx](https://www.sphinx-doc.org/en/master/) do generate its documentation.
-
-### Generate sphinx doc locally
-* activate your virtualenv: `workon m05-mp-decaillet`
-* build doc:
-
-#### OSX and Linux
-  ```bash
-  rm -rf ./doc/apidoc
-  sphinx-apidoc src/ -o ./doc/apidoc --no-toc --separate --module-first
-  sphinx-build doc sphinx
-  ```
-#### Windows
-
-```cmd
-  rmdir /S/Q ./doc/apidoc
-  sphinx-apidoc src/ -o ./doc/apidoc --no-toc --separate --module-first
-  sphinx-build doc sphinx
-```
-
-* open [sphinx/index.html](sphinx/index.html) in your web browser
-
-[GitHub actions](.github/workflows/main.yml) will auto-deploy doc to [Github pages](https://master-ai-batch5.github.io/M05-mp-decaillet/)
+## Documentation
+See [doc/documentation.md](doc/documentation.md)
 
 <!-- -------------------------------------------------- -->
